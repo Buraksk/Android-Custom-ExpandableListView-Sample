@@ -1,0 +1,104 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="8" >
+
+    <TextView
+        android:layout_height="60dp"
+        android:layout_width="180dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Adı:" />
+
+
+    <TextView
+        android:id="@+id/lblAd"
+        android:layout_height="60dp"
+        android:layout_width="203dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:layout_height="60dp"
+        android:layout_width="180dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="SoyAdı:" />
+
+
+    <TextView
+        android:id="@+id/lblSoyIsim"
+        android:layout_height="60dp"
+        android:layout_width="203dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:layout_height="60dp"
+        android:layout_width="180dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Daire Alanı : "  />
+
+
+    <TextView
+        android:id="@+id/lblDaireAlani"
+        android:layout_height="60dp"
+        android:layout_width="203dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+    <TextView
+
+        android:layout_height="60dp"
+        android:layout_width="180dp"
+        android:gravity="center"
+        android:text="Tüketim : "
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView
+        android:id="@+id/lblTuketim"
+        android:layout_height="60dp"
+        android:layout_width="203dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+    <TextView
+        android:layout_height="60dp"
+        android:layout_width="180dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Tutar : "
+         />
+
+    <TextView
+        android:id="@+id/lblTutar"
+        android:layout_height="60dp"
+        android:layout_width="203dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_height="60dp"
+        android:layout_width="180dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Fatura Dönemi : "/>
+
+    <TextView
+        android:id="@+id/lblFaturaDonemi"
+        android:layout_height="60dp"
+        android:layout_width="203dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark" />
+</GridLayout>
