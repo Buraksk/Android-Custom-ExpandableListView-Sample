@@ -8,3 +8,7 @@ gradle
 grad*
 settings*
 local*
+*.iml
+gradle/*
+
+
